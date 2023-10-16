@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Hina+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Special+Elite&display=swap');body {
+	font-family: 'Dosis', sans-serif;
+}
+header, section, footer {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+header {
+	height: 500px ;
+	box-sizing: border-box;
+}
+
+
+#menu {
+	width: 960px;
+	height: 100px;
+	background-color: #ffffff3f;
+	overflow: auto;
+	box-sizing: border-box;
+}
+
+ul  {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+ul li a {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+}
+
+a:link { text-decoration: none;
+}
+
+a:visited {
+text-decoration: none;
+}
+
+.destacado_horizontal{
+	width: 150px;
+	height: 45px;
+	background-color: #e6e4e4;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+	border: solid;
+	border-color:#5553f8;
+	border-width: 1px;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 40px;
+	margin-left: 4px;
+	margin-top: 3px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	list-style-type: none;
+}
+
+.destacado_horizontal:hover {
+	background-color:#828ce9;
+	font-weight: lighter;
+}
+
+h2{
+	margin-top: 0;
+	text-align: center;
+	text-decoration: underline;
+	box-sizing: border-box;
+    text-shadow:
+1px 1px 0px rgba(230,230,230,1),
+2px 2px 0px rgba(200,200,200,1),
+3px 3px 0px rgba(180,180,180,1),
+4px 4px 0px rgba(160,160,160,1)
+}
+
+#banner {
+	background-color: #0c0388;
+	box-sizing: border-box;
+	border-radius: 20px;
+}
+
+
+
+
+#Novedades {
+    width: 960px;
+    height: 900px;
+	background-color: #b80606;
+	box-sizing: border-box;
+}
+
+
+#Juegos {
+	width: 960px;
+	height: 1200px;
+	background-color: #f84a0a;
+	text-align: center;
+	letter-spacing: 5px;
+	box-sizing: border-box;
+}
+
+
+#Carrito {
+	width: 960px;
+	height: 1200px;
+	background-color: #03880a;
+	text-align: center;
+	letter-spacing: 5px;
+	box-sizing: border-box;
+	float:none;
+}
+
+footer {
+	height: 100px;
+	background-color: #817e7e56;
+	box-sizing: border-box;
+
+}
+
+#pie {
+	width: 960px;
+	height: 99px;
+	background-color: #FEC8D8;
+	background-image: url(imagenes/fondo3.jpg);
+	box-sizing: border-box;
+
+}
+.destacado_contacto{
+	display: inline-block;
+	width: 250px;
+	height: 50px;
+	color: #000000;
+	text-decoration: none;
+	text-align:center;
+	font-weight: bold;
+	padding-left: 15px;
+	padding-right: 15px;
+	line-height: 40px;
+	margin-left: 4px;
+	margin-top: 25px;
+}
+
+.destacado_contacto:hover {
+	font-weight:unset;
+	color:rebeccapurple;
+
+}
+
+
+.icon-document-edit {
+	color:rebeccapurple;
+}
